@@ -16,8 +16,8 @@ def test_functions_exist():
     defCount = len(result)
     for i in result:
         check50.log("Found "+i.strip())
-    if defCount < 2:
-        raise check50.Failure("You need at least two functions defined")
+    if defCount < 1:
+        raise check50.Failure("You need to include a function")
 
 @check50.check(exists)
 def test002():
