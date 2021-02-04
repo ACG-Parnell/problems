@@ -16,6 +16,6 @@ def TestNine():
     check50.run("python3 factorial.py").stdin("9").stdout("362880").exit(0)
     
 @check50.check(exists)
-def test0():
+def testNegative():
     """rejects a negative"""
     check50.run("python3 factorial.py").stdin("-5").reject()
