@@ -3,7 +3,7 @@ import check50
 
 @check50.check()
 def exists():
-    """andries.py exists."""
+    """sara.py exists."""
     check50.exists("sara.py")
 
 @check50.check(exists)
