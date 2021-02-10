@@ -18,7 +18,7 @@ def route2():
 @check50.check(exists)
 def route3():
     """check the route YYNN"""
-    check50.run("python3 sara.py").stdin("Y").stdin("Y").stdin("N).stdin("N").stdout("Butterflies are evil").exit(0)
+    check50.run("python3 sara.py").stdin("Y").stdin("Y").stdin("N").stdin("N").stdout("Butterflies are evil").exit(0)
 
 @check50.check(exists)
 def route4():
